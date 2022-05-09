@@ -1,0 +1,189 @@
+html {
+	font-size: 62.5%; /**reset para REMS 62.5% = 10px de 16px **/
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+	line-height: 2;
+	
+}
+
+/**globales**/
+img {
+	max-width: 100%;
+}
+
+.contenedor {
+	max-width: 120rem; /** = a 1200px **/
+	margin: 0 auto 0 auto;
+}
+
+h1 {
+	font-size: 3.8rem;
+}
+h2 {
+	font-size: 3.4rem;
+}
+h3 {
+	font-size: 3rem;
+}
+h4 {
+	font-size: 2.6rem;
+}
+.site-header {
+background: rgba(180,60,148,1);
+background: -moz-linear-gradient(left, rgba(180,60,148,1) 0%, rgba(180,60,148,1) 0%, rgba(196,74,170,1) 69%, rgba(212,37,154,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(180,60,148,1)), color-stop(0%, rgba(180,60,148,1)), color-stop(69%, rgba(196,74,170,1)), color-stop(100%, rgba(212,37,154,1)));
+background: -webkit-linear-gradient(left, rgba(180,60,148,1) 0%, rgba(180,60,148,1) 0%, rgba(196,74,170,1) 69%, rgba(212,37,154,1) 100%);
+background: -o-linear-gradient(left, rgba(180,60,148,1) 0%, rgba(180,60,148,1) 0%, rgba(196,74,170,1) 69%, rgba(212,37,154,1) 100%);
+background: -ms-linear-gradient(left, rgba(180,60,148,1) 0%, rgba(180,60,148,1) 0%, rgba(196,74,170,1) 69%, rgba(212,37,154,1) 100%);
+background: linear-gradient(to right, rgba(180,60,148,1) 0%, rgba(180,60,148,1) 0%, rgba(196,74,170,1) 69%, rgba(212,37,154,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b43c94', endColorstr='#d4259a', GradientType=1 );
+
+
+
+padding: 0rem 0 3rem 0;
+height: 20rem;
+border-radius: 0 0 85% 85% / 30%;
+-webkit-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.75);
+z-index:;
+}
+/**utilidades**/
+.titulos {
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+.seccion {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.fw-300 {
+	font-weight: 300;
+}
+
+.centrar-texto {
+	text-align: center;
+}
+.d-block {
+	display: block!important;
+}
+.contenido-centrado {
+	max-width: 800px;
+}
+.boton-amarillo {
+	background-color: #E08709;
+	display: inline-block;
+}
+.boton-verde {
+	background-color: #71B100;
+
+}
+
+
+
+/*.site-header .inicio {
+	background-image: url(../img/header.);
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	min-height: 60rem;
+}*/
+.contenido-header {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contenido-header h1 {
+	color: #ffffff;
+	padding-bottom: 2rem;
+	max-width: 60rem;
+	line-height: 2;
+}
+
+.barra {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 0.5rem;
+}
+
+.logo1 {
+	background-color: #ee8393;
+	width: 20rem;
+	height: 20rem;
+	border-radius: 100px 100px 100px 100px;
+	-webkit-box-shadow: 10px -5px 5px -4px rgba(0,0,0,0.31);
+    -moz-box-shadow: 10px -5px 5px -4px rgba(0,0,0,0.31);
+    box-shadow: 10px -5px 5px -4px rgba(0,0,0,0.31);
+
+}
+/*.barra h1:hover {
+	color:#c23cec;
+	
+}*/
+.logo {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 78px;
+    text-shadow: 1px 1px 1px #333;
+}
+.texto-logo {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	color: white;
+	font-size: 17px;
+	font-weight: 500;
+	margin-right: 79rem;
+	margin-left: 10rem;
+	margin-top: -11.5rem;
+	padding: 0;
+	text-align: center;
+	border-top: solid white 1px;
+
+}
+
+.navegacion {
+	display: block;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	margin: 1rem;
+	color: white;
+}
+.navegacion a:hover {
+	color: #84fa14;
+	text-decoration: none;
+
+
+}
+.linea-icono {
+	position: relative;
+	background: #c95fea;
+	height: 15rem;
+	margin-top: -6rem;
+	z-index: -1;
+}
+.iconos-header {
+	margin-top: 10rem;
+	width: 2.5rem;
+	height: 2.5rem;
+
+}
+.cabecera-icono {
+
+	display: flex;
+	justify-content: flex-end; 
+}
+.principal-cuerpo {
+	margin-top: 10rem;
+}

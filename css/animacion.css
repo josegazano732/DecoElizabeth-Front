@@ -1,0 +1,41 @@
+.translate {
+    display: block;
+    margin: 0 auto;
+	background: #ee8393;
+	border-radius: 100px 100px 100px 100px;
+	-webkit-box-shadow: 10px -5px 5px -4px rgba(0,0,0,0.31);
+    -moz-box-shadow: 10px -5px 5px -4px rgba(0,0,0,0.31);
+    box-shadow: 10px -5px 5px -4px rgba(0,0,0,0.31);
+    transition: all .3s ease-in-out;		
+}
+.anima-nav a:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    border-radius: 10px;
+    border: solid pink 1px;
+    width: 8rem;
+    text-align: center;
+}
+/* ----------2D---------
+     translate(x) 
+     translate(x,Y)
+
+    ---------3D---------
+    transform: translate3d(x, y, z);
+    translateX()
+    translateY()
+    translateZ()
+
+    ----- transform-origin: x y -------
+    Aplica a todas las transformaciones
+
+    Palabras Claves -> right, lefth, top, bottom, center.
+    Unidades de medidas -> px, em, rem... etc.*/
+
+.translate:hover {
+    cursor: pointer;
+	/*transform: translate(x,y,z);*/
+    /*transform: scale(1.1,1.5);*/ /*Scale modifica su tamano(multiplica su tamano de acuerdo a su width*/
+    transform: rotateY(70deg);
+
+}
